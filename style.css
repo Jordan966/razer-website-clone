@@ -1,0 +1,237 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Titillium Web', sans-serif;
+    background-color: black;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #b7b7b7;
+    padding-right: 3rem;
+}
+
+.bolder-anchor-full {
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.bolder-anchor-quarter {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #ffffff;
+}
+
+
+header {
+    background-color: rgb(20, 20, 20);
+    border-bottom: 2px solid #44D62C;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div.notification {
+    background-color: grey;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+div.notification p {
+    margin: 10px;
+}
+
+/* FLEX CONTAINER - FULL SIZE */
+div.flex-full {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+div.flex-full h2 {
+    margin: 0;
+    font-size: 4rem;
+    color: white;
+    /* position: absolute; */
+}
+
+div.flex-full h3 {
+    margin: 0;
+    font-size: 2rem;
+    color: white;
+    /* position: absolute; */
+}
+
+div.text-container {
+    margin-top: 4rem;
+    position: absolute;
+    text-align: center;
+}
+
+div.a-container-full {
+    margin-top: 15px;
+}
+
+.gt-full {
+    color: #44d62c;
+    font-size: larger;
+}
+
+
+
+/* FLEX CONTAINER - QUARTER SIZE */
+div.flex-quarter {
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+div.flex-quarter h2 {
+    margin: 0;
+    font-size: 2.5rem;
+    color: white;
+    /* position: absolute; */
+}
+
+div.flex-quarter h3 {
+    margin: 0;
+    font-size: 1.5rem;
+    color: white;
+    /* position: absolute; */
+}
+
+div.text-container-quarter-1 {
+    margin-top: 4rem;
+    position: absolute;
+    text-align: center;
+    left: 24%;
+}
+
+div.text-container-quarter-2 {
+    margin-top: 4rem;
+    position: absolute;
+    text-align: center;
+    left: 58%;
+}
+
+div.text-container-quarter-3 {
+    margin-top: 4rem;
+    position: absolute;
+    text-align: center;
+    left: 22%;
+    top: 33%;
+}
+
+div.text-container-quarter-4 {
+    margin-top: 4rem;
+    position: absolute;
+    text-align: center;
+    left: 60%;
+    top: 33%
+}
+
+div.text-container-quarter-5 {
+    margin-top: 4rem;
+    position: absolute;
+    text-align: center;
+    left: 19%;
+    top: 66%;
+}
+
+div.text-container-quarter-6 {
+    margin-top: 4rem;
+    position: absolute;
+    text-align: center;
+    left: 61%;
+    top: 66%;
+}
+
+div.a-container-quarter {
+    margin-top: 7.5px;
+}
+
+
+.gt-quarter {
+    color: #44d62c;
+    font-size: 1rem;
+}
+
+
+
+/* IMAGES */
+.razerlogo {
+    height: 35px;
+    width: 35px;
+}
+
+.searchicon {
+    height: 22px;
+    width: 22px;
+    padding-right: 3rem;
+}
+
+.carticon {
+    height: 22px;
+    width: 22px;
+}
+
+/* FULL SIZE IMAGES */
+.kishi-v2 {
+    width: 75%;
+    border-bottom: 10px solid #242424
+}
+
+.blackwidow-v4 {
+    width: 75%;
+    border-bottom: 10px solid #242424;
+}
+
+.back-to-school {
+    width: 75%;
+    border-bottom: 10px solid #242424;
+}
+
+/* QUARTER SIZE IMAGES */
+.razer-blade-14 {
+width: 37.5%;
+border-bottom: 10px solid #242424;
+}
+
+
+.row {
+    display: flex;
+    justify-content: center;
+}
+
+.list-header {
+    font-weight: bolder;
+    font-size: 1rem;
+}
+
+li {
+    font-size: 0.8rem;
+    padding-bottom: 10px;
+}
+
+footer {
+    background-color: #131313;
+}
+
+a img {
+    width: 24px;
+}
+
+.tag {
+    color: #44d62c;
+    margin: 16px;
+}
